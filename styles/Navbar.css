@@ -1,0 +1,39 @@
+/* 
+    title: navbr css 
+    description: file for styling navbar 
+    mood: by default coding 
+*/
+/* nav bar */
+.navBar{
+  background: var(--navbr);
+  /*  padding */
+  width: 100%;
+  display: flex;
+  padding: 10px 10%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+ 
+}
+.navBar ul {
+  /* padding: 1.2rem; */
+  width: 100%;
+  text-align: center;
+}
+.navBar ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  /* font size */
+  font-size: 1.1rem;
+  font-weight: 400;
+  transition: 0.3s
+}
+.navBar ul li a {
+  color: #fff;
+}
+/*  navbar hover */
+.navBar ul li:hover {
+  background: #f6f6f611;
+  border-right: 2px solid var(--activeGreen);
+  padding: 8px;
+}

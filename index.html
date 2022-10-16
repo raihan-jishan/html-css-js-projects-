@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html css js projects</title>
+    <!--  link style file -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/UserPath.css" />
+    <link rel="stylesheet" href="./styles/Navbar.css" />
+    <!-- G o o g l e icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    
+  </head>
+  <body>
+    <!--  main section -->
+    <div class="ContainerHero">
+      <!-- n a v  -->
+      <nav class="navBar">
+        <h3 class="logo">
+          Logo<span class="material-symbols-outlined"> person_search </span>
+        </h3>
+        <ul >
+          <li><a href="">Home</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+
+       
+
+        <!-- user pic -->
+        <img src="./assets/user1.svg" alt="pic" class="userPicture" onclick="toggleMenu()" />
+
+        <!--Menu wrapper  -->
+        <div class="subMenuWrap" id="subMenu">
+          <div class="subMenu">
+            <div class="userInfo">
+              <img src="./assets/user1.svg" alt="user photo " />
+              <h3>user admin</h3>
+            </div>
+            <!-- hr tag over there  -->
+            <hr />
+            <!--  menu links  -->
+
+            <a href="#" class="subMenuLinks">
+              <img src="./assets/profile.png" />
+              <p>Edit Profile</p>
+              <span class="material-symbols-outlined"> chevron_right </span>
+            </a>
+            <!-- menu links no:02 -->
+            <a href="#" class="subMenuLinks">
+              <img src="./assets/setting.png" />
+              <p>Settings & Privacy</p>
+              <span class="material-symbols-outlined"> chevron_right </span>
+            </a>
+            <!-- menu link no: 03 -->
+            <a href="#" class="subMenuLinks">
+              <img src="./assets/help.png" />
+              <p>Help & Support</p>
+              <span class="material-symbols-outlined"> chevron_right </span>
+            </a>
+            <!-- menu link no: 04 -->
+            <a href="#" class="subMenuLinks">
+              <img src="./assets/logout.png" />
+              <p>Logout</p>
+              <span class="material-symbols-outlined"> chevron_right </span>
+            </a>
+            <!--  end ⚙  -->
+          </div>
+        </div>
+        <!-- end 🏟  -->
+      </nav>
+    </div>
+    <!--  end there  -->
+
+
+   
+      
+
+    <!-- link js file -->
+    <script src="./js/App.js"></script>
+  </body>
+</html>
