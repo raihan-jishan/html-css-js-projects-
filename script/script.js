@@ -1,0 +1,1 @@
+//  require all variable for copy text function  

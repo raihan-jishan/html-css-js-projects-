@@ -1,0 +1,14 @@
+/* account realted css */
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+ .container h1{
+    padding: 12px;
+    border-radius: 0.4rem;
+
+    background: #bdbdbd7c;
+ }
